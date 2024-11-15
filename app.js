@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://admin:admin@workshop.ho2j2.mongodb.net/?retryWrites=true&w=majority&appName=workshop')
+mongoose.connect('remote url')
     .then(() => console.log("MongoDB Connected"))
     .catch(err => console.error("MongoDB Connection Error:", err));
 
